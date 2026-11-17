@@ -1,0 +1,24 @@
+GAME DESIGN 110
+
+Tools → GDD 110 → Start Here
+Play, explore, change the art, or build for the browser.
+
+PLAY
+WASD / left stick — Move
+Mouse / right stick — Look
+Space / gamepad south — Jump
+Move toward a low ledge and press Jump — Mantle
+E / gamepad west — Interact
+R — Return to checkpoint
+H / D-pad Up — Show or hide the next step
+
+MAKE IT YOURS
+Global Character — Assign a skinned Humanoid FBX.
+Create Materials from a Substance Folder — Connect a Painter URP export.
+Hierarchy → GDD 110 → Create — Add a ready-to-use object.
+
+BUILD
+Start Here → Build → Build WebGL
+Choose a folder outside Assets. ZIP the files with index.html at the top.
+
+More detail lives in the project Guides folder.

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Chest Pickup
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Chest Pickup
+  category: Pickups
+  menuPath: GameObject > GDD 110 > Create > Chest Pickup
+  accent: {r: 0.55, g: 0.8, b: 1, a: 1}
+  whatItDoes: Worn on the chest, like armor or a badge. Dropped, it waits 6 seconds, then dissolves and returns.
+  howToUse: Adjust Attachment Position to sit it exactly where you want on the body.
+  style: 3
+  sound: {fileID: 8300000, guid: 4110772b9efb94e5b919923d775a1ca7, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 6734527812935726144, guid: eb8a52714494ed749a260865aa957f3f, type: 3}
+  burstScale: 0.8
+  freezeFrame: 0.05
+  fovPunch: -4
+  cameraPush: 0.2
+  shake: 0.15
+  flash: 0.12
+  chromatic: 0.2
+  slowMo: 1
+  slowMoDuration: 0.4
+  squash: 0.45
+  floatingText: 
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 1
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

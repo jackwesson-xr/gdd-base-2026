@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047ec76d647df457ba1735c0cc6edea8, type: 3}
+  m_Name: GddGameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.GddGameSettings
+  settingsKey: 4
+  quickSaveKey: 50
+  quickLoadKey: 48
+  restartLevelKey: 47
+  previousLevelKey: 7
+  nextLevelKey: 8
+  levelHoldSeconds: 1.5
+  libraryKey: 9
+  libraryUrl: https://wesson.zone/gamelibrary/110
+  openLibraryInNewTab: 1
+  libraryHoldSeconds: 1
+  fadeOutSeconds: 0.5
+  fadeInSeconds: 0.5
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  mouseSensitivity: 1
+  masterVolume: 1
+  musicVolume: 0.7
+  effectsVolume: 1
+  showHealthBar: 1
+  healthIcon: {fileID: 21300000, guid: 80792f2219f234783820184ad4f5db52, type: 3}
+  healthFrame: {fileID: 21300000, guid: b8ca805046abd417e8127cdab5791fdb, type: 3}
+  healthChunks: 5
+  healthLook: 1
+  fillShader: {fileID: 4800000, guid: 39cdf0286f5d14055ba4f9a3321e1f08, type: 3}
+  music: {fileID: 11400000, guid: 1317987a7793e46a2ae50748269b27d2, type: 2}
+  panelSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  knobSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  checkSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Toggle Objects
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Toggle Objects
+  category: Triggerable
+  menuPath: GameObject > GDD 110 > Triggerables > Toggle Objects
+  accent: {r: 0.3, g: 0.9, b: 0.45, a: 1}
+  whatItDoes: Makes objects appear when switched On and vanish when Off, with a quick grow or shrink.
+  howToUse: Drag objects into its list, then drag it into a Link. Bridges, walls, rewards, lamps.
+  style: 0
+  sound: {fileID: 8300000, guid: d6252c9736dd3514dae1fc4563f27d43, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 5536285831624734214, guid: 2c586f5acfbe97c438882956f695722a, type: 3}
+  burstScale: 0.8
+  freezeFrame: 0.03
+  fovPunch: -2.5
+  cameraPush: 0.12
+  shake: 0.12
+  flash: 0
+  chromatic: 0.15
+  slowMo: 1
+  slowMoDuration: 0.4
+  squash: 0
+  floatingText: 
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 0
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

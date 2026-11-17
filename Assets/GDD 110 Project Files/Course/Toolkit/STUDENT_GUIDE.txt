@@ -1,0 +1,62 @@
+GDD 110 — MAKE INTERACTIVE OBJECTS WITHOUT CODE
+
+Open Tools > GDD 110 > Start Here for the student README, the Playground shortcut, and WebGL build button.
+
+1. START WITH THE COURSE PLAYER
+Open The Fourth Bell and press Play. The player already has movement, a camera, body sockets, interaction input, health, and onscreen help. Expand BUILDING BLOCKS — START HERE in the Hierarchy to inspect ready-to-play example stations and the Exit to Win portal.
+For an empty scene, first add a floor with Hierarchy right-click > 3D Object > Plane. Then use Hierarchy right-click > GDD 110 > Create > Player Rig. Use one player rig and one EventSystem in a scene. For an existing course controller, right-click it > GDD 110 > Set Up Player Interactions.
+
+2. DROP SOMETHING INTO YOUR SCENE
+Right-click empty space in the Hierarchy > GDD 110 > Create. The same entries appear under the GameObject menu. Objects are placed near the Scene view's focus; move them with the Move tool.
+Try Powers > Blaster Pickup, Speed Boots, or Jump Boots. Try Pickups > Hat Pickup or Chest Pickup. You can also drag the ready-made prefabs from Toolkit/Prefabs into the Scene view.
+The shared GddEntity base gives every new function a consistent name and activation events.
+
+3. PLAY
+Move: WASD / left stick. Look: mouse / right stick. Jump: Space / A (Cross). Sprint: Shift / left trigger (the course controller's existing bindings).
+Interact / pick up: E / X (Square).
+Use the active held item's powers: left click / right trigger (R2).
+Drop the active item: Q / B (Circle).
+Menu navigation: arrows / left stick or D-pad. Select: Enter / A (Cross).
+Click inside the browser game to give it focus. Press a controller button to let the browser discover the controller. A connected controller's button labels vary by manufacturer.
+
+4. ADD A FUNCTION TO AN OBJECT YOU ALREADY MADE
+Right-click the object in the Hierarchy > GDD 110 > Add Function.
+Choose Interact, Pickup, Power, Trigger Zone, Timer, Health, Spin or Bob, Collision Events, Keyboard and Controller Events, or Scene Actions.
+Choose Function opens a searchable list of the new custom functions. Add as many different functions as the lesson needs.
+Trigger Zone creates a child with its own collider and kinematic Rigidbody. It preserves your object's solid collider. Move/scale the outlined child to control the trigger volume.
+
+5. CONNECT OBJECTS WITH UNITYEVENTS
+Example: a switch turns off a wall.
+- Add Interact to your switch.
+- In its Inspector, expand When activated > On Activated and press +.
+- Drag your wall from the Hierarchy into the new event slot.
+- Choose GameObject > SetActive and leave its checkbox off.
+- Press Play, walk near the switch, and press E / X.
+For automatic activation, use Event Trigger and the same event connection. Once makes a one-time trigger. On Exited supports leaving the area.
+On Activated By can pass the entering/interacting GameObject to an event accepting that argument. Timer, collision, keyboard/controller, health-empty, equipped, dropped, and collected events can also connect to functions.
+Useful event functions include Activate, EnableObject, DisableObject, ToggleObject, DestroyObject, StartTimer, StopTimer, Spawn, ClearSpawned, Damage, Heal, ResetHealth, NextScene, RestartScene, and FirstScene.
+
+6. PICKUP ATTACHMENTS
+A Pickup's Attachment selects Right Hand, Left Hand, Head, Chest, Back, Hips, Left Foot, or Right Foot. The course rig finds humanoid bones automatically.
+Attachment Position and Attachment Rotation adjust how the item sits in that socket. Size is preserved when attaching to scaled bones. Only one item occupies a given socket; a new item drops the previous one. Different sockets can hold multiple items. The most recently equipped item is the active item for Use and Drop.
+On non-humanoid characters, Body Sockets also supports exact bone names and editable Transform overrides. Auto Map creates reasonable fallback sockets if bones are unavailable; review their position in the Scene view before teaching with a custom rig.
+To put the ready-made player's controls and interaction tools on another established course controller, use Set Up Player Interactions. This adds interaction support; it does not replace that character's movement or animation controller.
+
+7. GIVE PICKUPS POWERS
+Put a Power function on the pickup or one of its children. Assign an asset from Toolkit/Powers.
+Built-in choices: Projectile, Heal, Speed Boost, Jump Boost, Push, Score, and Events Only.
+Use Button runs when the active item is used. On Equip runs once when equipped. While Equipped is for wearable speed/jump bonuses and restores the original movement values when removed.
+To create your own global preset, duplicate an existing power asset, or Project right-click > Create > GDD 110 > Power Definition. Choose its Kind and tune cooldown, amount, multiplier, duration, and projectile settings. Multiple pickup prefabs can reference the same global preset. Events Only lets you build a new behavior by wiring UnityEvents without writing C#.
+Health/Score collectibles work by touching them. The Actor and Health inspectors show live score/health values in Play mode; their value-changed events can drive your own UI. Carry pickups use E / X by default. Dropped items regain physics. Projectiles and spawned objects have bounded lifetimes; spawners have an alive-object limit.
+The Playground uses shared blocks for interactions and the exit portal. Scene 0 includes the title and intro, Scene 1 previews the same intro, and Scene 3 returns to the title. The player compatibility component still supports earlier course keyboard events if you reuse them.
+
+8. USE A MIXAMO HUMANOID SKIN
+Import the FBX with skin. In its Rig tab choose Humanoid and Create From This Model, turn off Optimize Game Objects, and Apply. Choose Tools > GDD 110 > Global Character and set Character once. The title, intro, Playground, Win, and Course Player Rig use the same asset and default animations. Clear Character to restore the robot. Extra Yaw and Height Override are optional. Stop and restart Play to test the change. The Hierarchy's Apply Humanoid Skin command remains available for an intentional local override.
+
+9. BUILD FOR UNITY PLAY
+Use Tools > GDD 110 > WebGL > Build for Unity Play. Select an output folder outside Assets. The included builder uses only the lighter URP browser quality level for WebGL and enforces WebGL 2, IL2CPP, a single-threaded build, and Gzip with JavaScript decompression fallback. No MCP, HDRP, or package caches are needed.
+If WebGL Build Support is missing, add it to Unity 6000.6.0f1 in Unity Hub.
+After a successful build, ZIP the build CONTENTS so index.html sits at the ZIP root, beside Build and TemplateData. Upload that build ZIP to Unity Play. The student Unity-project ZIP is a different file; it is for editing, not uploading as a playable build.
+When testing locally, serve the output over HTTP; opening index.html as a file is not a valid WebGL test. Browser security can require a click before audio, fullscreen, pointer lock, or gamepad detection works. Test a physical controller in the browser you will use for class.
+
+Use Toolkit/Editor only inside the Unity Editor. Runtime functions contain no UnityEditor API or MCP dependency.

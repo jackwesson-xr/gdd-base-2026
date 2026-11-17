@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Teleporter
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Teleporter
+  category: Touchables
+  menuPath: GameObject > GDD 110 > Create > Teleporter
+  accent: {r: 0.62, g: 0.42, b: 1, a: 1}
+  whatItDoes: Instantly moves the player to its Destination point.
+  howToUse: Move the child 'Teleport Destination' to where the player should appear. This one drops you in the plaza.
+  style: 6
+  sound: {fileID: 8300000, guid: 54890615c223ed649aadbf24020976a2, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 2427305996381154637, guid: 5dd32416d0c191f4e93fcfa067561aca, type: 3}
+  burstScale: 0.8
+  freezeFrame: 0.08
+  fovPunch: 12
+  cameraPush: -0.6
+  shake: 0.3
+  flash: 0.6
+  chromatic: 0.7
+  slowMo: 0.3
+  slowMoDuration: 0.35
+  squash: 0.6
+  floatingText: 
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 0
+  idleVfx: {fileID: 1228375894804072350, guid: a343c7f457cee9c41aebc4de648b1602, type: 3}
+  idleVfxScale: 0.7
+  buildUpOnApproach: 1
+  buildUpRadius: 5
+  buildUpLoop: {fileID: 8300000, guid: b013a2c121b73894cba95e15ab84b0e1, type: 3}

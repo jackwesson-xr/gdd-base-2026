@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Play Timeline
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Play Timeline
+  category: Triggerable
+  menuPath: GameObject > GDD 110 > Triggerables > Play Timeline
+  accent: {r: 0.45, g: 0.7, b: 1, a: 1}
+  whatItDoes: Plays a Timeline forward and holds the last frame. Off plays it backward. Reset rewinds and runs it again.
+  howToUse: Link with Toggle for a lift, or with Reset for a beat-the-clock gate.
+  style: 0
+  sound: {fileID: 8300000, guid: dcabc9bcc2a8340ada5729e569aebd48, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 849518450535060381, guid: 49aeb122cba0447439ad6b79839d5d1e, type: 3}
+  burstScale: 0.5
+  freezeFrame: 0.04
+  fovPunch: -3
+  cameraPush: 0.15
+  shake: 0.18
+  flash: 0
+  chromatic: 0.2
+  slowMo: 1
+  slowMoDuration: 0.4
+  squash: 0
+  floatingText: 
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 0
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

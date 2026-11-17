@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Hopper Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Hopper Enemy
+  category: NPCs
+  menuPath: Add Component > Enemy (course script)
+  accent: {r: 1, g: 0.4, b: 0.25, a: 1}
+  whatItDoes: 'Enemy script, Jump movement: leaps toward the player in bursts.'
+  howToUse: Speed sets both jump strength and how often it jumps.
+  style: 14
+  sound: {fileID: 8300000, guid: db8231501116cb04290b3ed54ff277cf, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 8236951030570242485, guid: 55536d70528971345a73990d6b2fdbe6, type: 3}
+  burstScale: 0.5
+  freezeFrame: 0.1
+  fovPunch: -5
+  cameraPush: 0.35
+  shake: 0.5
+  flash: 0.25
+  chromatic: 0.45
+  slowMo: 0.3
+  slowMoDuration: 0.45
+  squash: 0.6
+  floatingText: DEFEATED
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 0
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

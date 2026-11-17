@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Blaster Pickup
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Blaster Pickup
+  category: Pickups
+  menuPath: GameObject > GDD 110 > Create > Blaster Pickup
+  accent: {r: 1, g: 0.5, b: 0.28, a: 1}
+  whatItDoes: Carry it, then click to fire toward where the camera looks. Dropped, it waits 6 seconds and returns.
+  howToUse: Shots pass through the creature fences. Edit the power definition for speed and cooldown.
+  style: 15
+  sound: {fileID: 8300000, guid: 20cd234ad5e474cb096db066309a975c, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 8665248851501397509, guid: e258a96d40ff5ea40b83dc4639318e0b, type: 3}
+  burstScale: 0.7
+  freezeFrame: 0.05
+  fovPunch: -4
+  cameraPush: 0.2
+  shake: 0.18
+  flash: 0.1
+  chromatic: 0.25
+  slowMo: 1
+  slowMoDuration: 0.4
+  squash: 0.45
+  floatingText: 
+  useSound: {fileID: 8300000, guid: 039dfbda1b6204409aeb52ea32a3aef0, type: 3}
+  useVfx: {fileID: 1462419100995865396, guid: 79281f026a2f7984fae3de2939b9fb15, type: 3}
+  idleFloat: 1
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

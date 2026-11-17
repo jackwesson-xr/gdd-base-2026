@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7b87c0a5b364d1eb85fa26307825b9, type: 3}
+  m_Name: Spawner
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddBlockInfo
+  blockName: Spawner
+  category: Automations
+  menuPath: GameObject > GDD 110 > Create > Spawner
+  accent: {r: 1, g: 0.55, b: 0.2, a: 1}
+  whatItDoes: Creates copies of a prefab, up to a limit, and cleans them up after their lifetime.
+  howToUse: Automatic spawns on its own interval. Turn it off and link a button or trigger to spawn on demand.
+  style: 8
+  sound: {fileID: 8300000, guid: 7336cd5e6e4f74693ac6c4b607b671ef, type: 3}
+  volume: 0.8
+  pitchRange: {x: 0.95, y: 1.08}
+  burstVfx: {fileID: 8286068161152591239, guid: f6ccc7f4701d7804dbbcbed9a6efa712, type: 3}
+  burstScale: 0.6
+  freezeFrame: 0
+  fovPunch: -1.5
+  cameraPush: 0.06
+  shake: 0.06
+  flash: 0
+  chromatic: 0.1
+  slowMo: 1
+  slowMoDuration: 0.4
+  squash: 0.4
+  floatingText: 
+  useSound: {fileID: 0}
+  useVfx: {fileID: 0}
+  idleFloat: 0
+  idleVfx: {fileID: 0}
+  idleVfxScale: 1
+  buildUpOnApproach: 0
+  buildUpRadius: 6
+  buildUpLoop: {fileID: 0}

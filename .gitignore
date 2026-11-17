@@ -1,0 +1,13 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Build/
+/Builds/
+/.plastic/
+/Packages/com.coplaydev.unity-mcp/
+*.csproj
+*.sln
+*.slnx
+.DS_Store

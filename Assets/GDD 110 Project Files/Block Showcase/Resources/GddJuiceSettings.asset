@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21b884547fbb4046b74981f229779f3, type: 3}
+  m_Name: GddJuiceSettings
+  m_EditorClassIdentifier: Assembly-CSharp::GDD110.Juice.GddJuiceSettings
+  juiceEnabled: 1
+  tooltipsEverywhere: 0
+  tooltipRadius: 4.5
+  showLinksEverywhere: 0
+  showActionPrompts: 1
+  showcaseRespawnSeconds: 4
+  blocks:
+  - {fileID: 11400000, guid: 74756e2b659c64033afcca76e5ac07c9, type: 2}
+  - {fileID: 11400000, guid: f5c604a0018754c24ba794b4cbe382e6, type: 2}
+  - {fileID: 11400000, guid: 5f28f1baf255c4c2b9a4dfd348ad8f6a, type: 2}
+  - {fileID: 11400000, guid: 4fd84b7b4356c4ab29c7c95b05d3f1c8, type: 2}
+  - {fileID: 11400000, guid: 0f4326ca886134aa4ac37137440f4f47, type: 2}
+  - {fileID: 11400000, guid: 117bf593894f741dc8987967b89a6f6c, type: 2}
+  - {fileID: 11400000, guid: b813de3df56184757bc9698a6dc0efba, type: 2}
+  - {fileID: 11400000, guid: 2e07467f87bb4493f9d8426608a31b30, type: 2}
+  - {fileID: 11400000, guid: ee0b23d5c1c2542038008bf26041a7d7, type: 2}
+  - {fileID: 11400000, guid: 0b1680f9b38ff4f6ab501c7fc9ad9316, type: 2}
+  - {fileID: 11400000, guid: 951a3b89744d74aafa399c1a192ad886, type: 2}
+  - {fileID: 11400000, guid: dce004c3e863a4729ba1d2de44e6d0e4, type: 2}
+  - {fileID: 11400000, guid: e858bab6d4ed443a2a77d83f6e47ee9f, type: 2}
+  - {fileID: 11400000, guid: c450ae9dcfa5c4c769236802bc03b766, type: 2}
+  - {fileID: 11400000, guid: 3f441c34274ed412093b0a70d5f3c05b, type: 2}
+  - {fileID: 11400000, guid: 7e6d300676dd3492fb4f86fc088c350c, type: 2}
+  - {fileID: 11400000, guid: ff6d1d2bbc5f44abbb92597bc4e8cbf6, type: 2}
+  - {fileID: 11400000, guid: c378c88a9b6aa4c30830c01c671df96b, type: 2}
+  - {fileID: 11400000, guid: 528e31ec872d04db5bcf27f39da7fbaf, type: 2}
+  - {fileID: 11400000, guid: 7aee0cedac2064009b1423e9ba292fec, type: 2}
+  - {fileID: 11400000, guid: c94f447b05a1748e29427602321bc96c, type: 2}
+  - {fileID: 11400000, guid: c841acdd422e64324bb0adfaa42c87e2, type: 2}
+  - {fileID: 11400000, guid: ab55419da463144189fd313c2da282e3, type: 2}
+  - {fileID: 11400000, guid: 4c6a61f4a1daf48959ee6253f609e822, type: 2}
+  - {fileID: 11400000, guid: 7085bf36129324bc89d8398976cc7b85, type: 2}
+  - {fileID: 11400000, guid: 793ab578011e343b09e3d991654a8873, type: 2}
+  - {fileID: 11400000, guid: 32d454aef08054eeb8bc51067a73fef0, type: 2}
+  - {fileID: 11400000, guid: 506e778c9512b46729050e9628e39617, type: 2}
+  - {fileID: 11400000, guid: 163d2ba2b55dc4f8b9bf2ba54d993a57, type: 2}
+  - {fileID: 11400000, guid: a31db26044c324dd08bf13711992fc7d, type: 2}
+  - {fileID: 11400000, guid: d940e1d24726642688327c5c5ebcdd6a, type: 2}
+  - {fileID: 11400000, guid: 913d51ebadfd3436cbcf6bca2c891c34, type: 2}
+  - {fileID: 11400000, guid: f9b457e5d2b7547b8afbf44284469d38, type: 2}
+  - {fileID: 11400000, guid: 9b935f12ca44141da813e827fb8c9b9b, type: 2}
+  - {fileID: 11400000, guid: 255f5de31d0814d608d055f76b7d78f9, type: 2}
+  postProfile: {fileID: 11400000, guid: 9c29476ec7fba4769984aa9c3d179332, type: 2}
+  buildUpProfile: {fileID: 11400000, guid: b5847aee43fe04caca423919c42aace0, type: 2}
+  panelSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  lineMaterial: {fileID: 2100000, guid: 14f68c3babbf843278cd8b236e7ef24e, type: 2}
+  tooltipOpen: {fileID: 8300000, guid: 7336cd5e6e4f74693ac6c4b607b671ef, type: 3}
+  tooltipClose: {fileID: 8300000, guid: 801a894d272f24eb5ad28f5219e62bfe, type: 3}
+  hurtSound: {fileID: 8300000, guid: 3bc013dad63a144f180df160104b4242, type: 3}
+  healSound: {fileID: 8300000, guid: 944fc21edac9d7b47b9c38f0c6ae4671, type: 3}
+  scoreSound: {fileID: 8300000, guid: 0cc8b736879e846a19b851eb815591a8, type: 3}
+  arriveSound: {fileID: 8300000, guid: 54890615c223ed649aadbf24020976a2, type: 3}
+  arriveVfx: {fileID: 5385344404439028670, guid: 2e2e720a814d64241b0a3ecf639aabc5, type: 3}
+  hurtVfx: {fileID: 1350445096495842306, guid: a1019d5de4cec814ea51df3179581167, type: 3}
+  poofVfx: {fileID: 5296629958484169828, guid: acee1218784d63f40bd220601d03f4a9, type: 3}
+  spawnPopVfx: {fileID: 7241217483817270791, guid: 279a2194dd8a1994195b8c9fa876bc84, type: 3}
+  linkPulseVfx: {fileID: 7241217483817270791, guid: 279a2194dd8a1994195b8c9fa876bc84, type: 3}
+  heartIcon: {fileID: 2800000, guid: 8068353514b11438f8b70b4bc0c701cf, type: 3}
+  angerIcon: {fileID: 2800000, guid: 324bd684a330243d3b00d2caf59077ea, type: 3}
+  heartBurstVfx: {fileID: 4719629038386415445, guid: e013bfdcc97c798429520874aa227f14, type: 3}
+  happySound: {fileID: 8300000, guid: 77d6356f3f181f04c86c084a2ff5267d, type: 3}
+  angrySound: {fileID: 8300000, guid: 1a197a36b1e09c44cb1d60ee4ceec601, type: 3}
+  deathVfx: {fileID: 5619386021293234911, guid: a0eb681ecbc9f8e43b8bb98b8c0b93ce, type: 3}
+  deathSound: {fileID: 8300000, guid: 9143cc0979f80d945bb7339cd7a44944, type: 3}
